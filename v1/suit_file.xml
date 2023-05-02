@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  
+  <suite-files>
+
+
+ 	<!-- 	<suite-file path="testsuit.xml"/>   -->
+     	<suite-file path="UATsuit.xml"/>
+ 		<suite-file path="LiveSuit.xml"/>
+
+</suite-files>
+
+</suite> <!-- Suite -->

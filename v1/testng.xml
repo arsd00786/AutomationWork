@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ 
+
+  <test name="Checking_Parameterization">
+  <parameter name="Browser" value="Chrome"/>
+  <parameter name="Url" value="https://hrms.opportune.in/AGL-SS/"/> 
+    <classes>
+    
+      <class name="com.testing.selenium.v1.TestNG_Parameterization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

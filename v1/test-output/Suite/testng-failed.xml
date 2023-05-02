@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Checking_Parameterization(failed)">
+    <parameter name="Url" value="https://hrms.opportune.in/AGL-SS/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.testing.selenium.v1.TestNG_Parameterization">
+        <methods>
+          <include name="OpenGmail" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testing.selenium.v1.TestNG_Parameterization -->
+    </classes>
+  </test> <!-- Checking_Parameterization(failed) -->
+</suite> <!-- Failed suite [Suite] -->
