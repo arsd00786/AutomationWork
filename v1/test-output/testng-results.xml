@@ -1,75 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Keyword entered is : Data provider in TestNG]]>
-    </line>
-    <line>
-      <![CDATA[Search results are displayed.]]>
-    </line>
-    <line>
-      <![CDATA[Keyword entered is : TestNG]]>
-    </line>
-    <line>
-      <![CDATA[Search results are displayed.]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-04-05T11:48:06 IST" name="Default suite" finished-at="2023-04-05T11:48:17 IST" duration-ms="11136">
+  <suite started-at="2023-08-15T19:48:08 IST" name="Suite" finished-at="2023-08-15T19:48:08 IST" duration-ms="143">
     <groups>
     </groups>
-    <test started-at="2023-04-05T11:48:06 IST" name="Default test" finished-at="2023-04-05T11:48:17 IST" duration-ms="11136">
-      <class name="com.testing.selenium.v1.DataProviders">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.testing.selenium.v1.DataProviders@67c27493]" started-at="2023-04-05T11:48:06 IST" name="launch" finished-at="2023-04-05T11:48:10 IST" duration-ms="3628" status="PASS">
+    <test started-at="2023-08-15T19:48:08 IST" name="Test" finished-at="2023-08-15T19:48:08 IST" duration-ms="143">
+      <class name="Live_ProdEnv.Live2">
+        <test-method signature="L1()[pri:0, instance:Live_ProdEnv.Live2@8f4ea7c]" started-at="2023-08-15T19:48:08 IST" name="L1" finished-at="2023-08-15T19:48:08 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="search(java.lang.String)[pri:0, instance:com.testing.selenium.v1.DataProviders@67c27493]" started-at="2023-04-05T11:48:10 IST" name="search" data-provider="test-data" finished-at="2023-04-05T11:48:12 IST" duration-ms="2137" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Data provider in TestNG]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Keyword entered is : Data provider in TestNG]]>
-            </line>
-            <line>
-              <![CDATA[Search results are displayed.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="burnDown()[pri:0, instance:com.testing.selenium.v1.DataProviders@67c27493]" started-at="2023-04-05T11:48:12 IST" name="burnDown" finished-at="2023-04-05T11:48:12 IST" duration-ms="193" status="PASS">
+        </test-method> <!-- L1 -->
+        <test-method signature="L2()[pri:0, instance:Live_ProdEnv.Live2@8f4ea7c]" started-at="2023-08-15T19:48:08 IST" name="L2" finished-at="2023-08-15T19:48:08 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- burnDown -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.testing.selenium.v1.DataProviders@67c27493]" started-at="2023-04-05T11:48:12 IST" name="launch" finished-at="2023-04-05T11:48:14 IST" duration-ms="2411" status="PASS">
+        </test-method> <!-- L2 -->
+        <test-method signature="L3()[pri:0, instance:Live_ProdEnv.Live2@8f4ea7c]" started-at="2023-08-15T19:48:08 IST" name="L3" finished-at="2023-08-15T19:48:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="search(java.lang.String)[pri:0, instance:com.testing.selenium.v1.DataProviders@67c27493]" started-at="2023-04-05T11:48:14 IST" name="search" data-provider="test-data" finished-at="2023-04-05T11:48:17 IST" duration-ms="2526" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TestNG]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Keyword entered is : TestNG]]>
-            </line>
-            <line>
-              <![CDATA[Search results are displayed.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="burnDown()[pri:0, instance:com.testing.selenium.v1.DataProviders@67c27493]" started-at="2023-04-05T11:48:17 IST" name="burnDown" finished-at="2023-04-05T11:48:17 IST" duration-ms="190" status="PASS">
+        </test-method> <!-- L3 -->
+      </class> <!-- Live_ProdEnv.Live2 -->
+      <class name="Live_ProdEnv.Live_Environment">
+        <test-method signature="L1()[pri:0, instance:Live_ProdEnv.Live_Environment@7f0eb4b4]" started-at="2023-08-15T19:48:08 IST" name="L1" finished-at="2023-08-15T19:48:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- burnDown -->
-      </class> <!-- com.testing.selenium.v1.DataProviders -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- L1 -->
+        <test-method signature="L2()[pri:0, instance:Live_ProdEnv.Live_Environment@7f0eb4b4]" started-at="2023-08-15T19:48:08 IST" name="L2" finished-at="2023-08-15T19:48:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- L2 -->
+        <test-method signature="L3()[pri:0, instance:Live_ProdEnv.Live_Environment@7f0eb4b4]" started-at="2023-08-15T19:48:08 IST" name="L3" finished-at="2023-08-15T19:48:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- L3 -->
+      </class> <!-- Live_ProdEnv.Live_Environment -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
